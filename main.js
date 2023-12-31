@@ -30,7 +30,7 @@ function validate(guess){
     }
     else{
        preGuess.push(guess);
-       if(numGuess===10){
+       if(numGuess===11){
         displayGuess(guess);
         displayMessage(`Game Over ! .. The random number was ${randomNumber}`);
         endGame();
